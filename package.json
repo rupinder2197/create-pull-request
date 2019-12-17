@@ -1,0 +1,30 @@
+{
+  "name": "create-pull-request",
+  "version": "1.0.0",
+  "description": "A CLI to start my project",
+  "main": "src/index.js",
+  "bin": {
+    "@your_npm_username/create-pull-request": "bin/create-pull-request",
+    "create-pull-request": "bin/create-pull-request"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "create-pull-request"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.18",
+    "git-branch": "^2.0.1",
+    "git-repo-name": "^1.0.1",
+    "lodash": "^4.17.15",
+    "q": "^1.5.1",
+    "request": "^2.88.0"
+  }
+}
