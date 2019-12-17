@@ -1,3 +1,6 @@
+Decription of the project :-
+Program to create the pull reuqest for github from command line instead of UI.
+
 STEPS TO RUN THE PROGRAM
 
 1. Add the npm user in the package.json
